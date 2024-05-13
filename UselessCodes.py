@@ -27,8 +27,37 @@ miles = 7.38
 miles_to_kilometers = miles * 1.61
 kilometers_to_miles = kilometers / 1.61
 
-print(miles, "millas son", round(miles_to_kilometers, 4), "kilómetros")
+print(miles, "millas son", round(miles_to_kilometers, 2), "kilómetros")
 print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
 
 ##
+
+var = "007"
+print("Agent " + var)
+
+# Este programa evalúa la hipotenusa c.
+# a y b son las longitudes de los cátetos.
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5  # Se emplea ** en lugar de una raíz cuadrada.
+print("c =", c)
+
+print("Dime lo que sea...")
+anything = input()
+print("Hmm...", anything, "... ¿en serio?")
+
+
+anything = float(input("Ingresa un número: "))
+something = anything ** 2.0
+print(anything, "a la potencia de 2 es", something)
+
+
+fnam = input("¿Me puedes dar tu nombre por favor? ")
+lnam = input("¿Me puedes dar tu apellido por favor? ")
+print("Gracias. ")
+print("\nTu nombre es " + fnam + " " + lnam + ".")
+
+
+
+
 
